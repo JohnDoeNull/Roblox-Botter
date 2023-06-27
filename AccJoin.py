@@ -86,7 +86,7 @@ for Cookie in config["Cookies"]:
 """
 
 PlaceID, JobID = 3290718502, "845ca8fb-cbbf-4e79-b875-005b6a372878"
-Bots = 1
+Bots = 2
 TimeBetween = 9 # Time to sleep after each join. (Seconds)
 
 for i in range(Bots):
