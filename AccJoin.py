@@ -60,7 +60,7 @@ def startGame(placeID, j, Cookie):
     print(location);
     Popen([location, args.format(ticket = ticket, timestamp = '{0:.0f}'.format(round(time.time() * 1000)), placeID = placeID)])
 
-    time.sleep(5)
+    time.sleep(10000)
 
 config = {
     "Cookies": [
